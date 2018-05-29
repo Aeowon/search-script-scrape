@@ -1,30 +1,7 @@
 ## Search-Script-Scrape: 101 webscraping and research tasks for the data journalist
 
-__Note:__ This exercise set is part of the [Stanford Computational Journalism Lab](http://cjlab.stanford.edu). I've also written [a blog post that gives a little more elaboration about the libraries used and a few of the exercises](http://blog.danwin.com/examples-of-web-scraping-in-python-3-x-for-data-journalists/).
-
--------------
-
 This repository contains [101 Web data-collection tasks](#the-tasks) in Python 3 that I assigned to my [Computational Journalism class in Spring 2015](http://www.compjour.org) to give them regular exercise in programming and conducting research, and to expose them to the variety of data published online.
 
-The hard part of many of these tasks is researching and finding the actual data source. The scripts need only concern itself with fetching the data and printing the answer in the least painful way possible. Since the [Computational Journalism class](http://www.compjour.org) wasn't intended to be an actual programming class, adherence to idioms and best codes practices was not emphasized...(especially since I'm new to Python myself!)
-
-Some examples of the tasks:
-
-- [The California city whose city manager has the highest total wage per capita in 2012](https://github.com/compjour/search-script-scrape/blob/master/scripts/100.py) ([expanded version](scratchpad/high_city_ca_pay.py))
-- [In the most recently transcribed Supreme Court argument, the number of times laughter broke out](https://github.com/compjour/search-script-scrape/blob/master/scripts/50.py) ([expanded version](scratchpad/more_scotus_laughs.py))
-- [Number of days until Texas's next scheduled execution](scripts/29.py)
-- [The U.S. congressmember with the most Twitter followers](https://github.com/compjour/search-script-scrape/blob/master/scripts/90.py)
-- [The number of people who visited a U.S. government website using Internet Explorer 6.0 in the last 90 days](https://github.com/compjour/search-script-scrape/blob/master/scripts/3.py)
-
-## Repo status
-
-
-The table below links to the available scripts. If there's not a link, it means I haven't committed the code. Some of them I had to rethink a less verbose solution (or the target changed, as the Internet sometimes does), and now this repo has taken a backseat to many other data projects on my list. `¯\_(ツ)_/¯` 
-
-Note: A lot of the code is not best practice. The tasks are a little repetitive so I got bored and [ignored PEP8](https://www.python.org/dev/peps/pep-0008/) and/or tried new libraries/conventions for fun.
-
-
-__Note:__ The "__related URL__" links to either the official source of the data, or at least a page with some background information. The second column of this table refers to __line count__ of the script, __not__ the answer to the prompt.
 
 ## The tasks
 
@@ -33,7 +10,7 @@ The repo currently contains scripts for __100__ of __101__ tasks:
 
 |          Title          |  Line count |
 |-------------------------|-------------|
-| 1. <i id='task-1'></i>Number of datasets currently listed on data.gov <br> <a href='http://catalog.data.gov/dataset'>[related URL]</a>&nbsp;<a href='scripts/1.py'>[script]</a> |  7 lines |
+| 1. <i id='task-1'></i>Number of datasets currently listed on data.gov <br> <a href='http://data.gov/'>[related URL]</a>&nbsp;<a href='scripts/1.py'>[script]</a> |  7 lines |
 | 2. <i id='task-2'></i>The name of the most recently added dataset on data.gov <br> <a href='http://catalog.data.gov/dataset?q=&sort=metadata_created+desc'>[related URL]</a>&nbsp;<a href='scripts/2.py'>[script]</a> |  7 lines |
 | 3. <i id='task-3'></i>The number of people who visited a U.S. government website using Internet Explorer 6.0 in the last 90 days <br> <a href='https://analytics.usa.gov/data/live/ie.json'>[related URL]</a>&nbsp;<a href='scripts/3.py'>[script]</a> |  4 lines |
 | 4. <i id='task-4'></i>The number of librarian-related job positions that the federal government is currently hiring for <br> <a href='https://data.usajobs.gov/api/jobs?series=1410'>[related URL]</a>&nbsp;<a href='scripts/4.py'>[script]</a> |  6 lines |
